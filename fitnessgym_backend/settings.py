@@ -160,7 +160,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # --------------------------------------------------
 CORS_ALLOWED_ORIGINS = [
     "https://fitnessgym-frontend.netlify.app/",
-    "http://localhost:3000",
+    "http://localhost,127.0.0.1 ",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
